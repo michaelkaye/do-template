@@ -2,7 +2,7 @@
 # tasks file for do-template
 - template:
     src: input.j2
-    dest: output
+    dest: "{{ fqdn }}"
     variable_start_string: "<{"
     variable_end_string: "}>"
   connection: local
