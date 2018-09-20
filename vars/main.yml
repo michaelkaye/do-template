@@ -1,0 +1,5 @@
+---
+name: "hostname"
+domain: "domain.org"
+fqdn: "{{ name }}.{{ domain }}"
+# vars file for do-template
