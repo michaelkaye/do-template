@@ -1,5 +1,6 @@
 ---
 name: "hostname"
 domain: "domain.org"
+fqdn_eurgh: "<{ name }>.<{ domain }>"
 fqdn: "{{ name }}.{{ domain }}"
 # vars file for do-template
