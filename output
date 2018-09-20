@@ -1,0 +1,3 @@
+server-name="{{ name }}.{{ domain }}"
+server-welcome-template="{{ ip }} has {{ users }} active"
+
